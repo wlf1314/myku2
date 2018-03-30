@@ -1,0 +1,168 @@
+@charset "utf-8";
+a{
+    text-decoration: none;
+}
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    min-width: 1300px;
+}
+a:active{
+    color: #000;
+}
+a:link{
+    color: #000;
+}
+a:visited{
+    color: #000;
+}
+.header{
+    width: 100%;
+    margin: auto;
+    height: 65px;
+    border-bottom: 2px solid #77d1ad;
+    position: fixed;
+    z-index: 666;
+    background: #fff;
+    
+}
+header{
+    width: 60%;
+    text-align: center; 
+    margin: auto;
+    min-width: 1000px;
+    padding-top: 10px;
+}
+.logo{
+    width: 20%;
+    height: 60px;
+
+}
+.logo img{
+    width: 120%;
+    margin-left: -15%;
+}
+.daohang{
+    width: 60%;
+    margin: auto;
+    margin-left: 25%;
+    margin-top: -60px;
+}
+.daohang-first{
+    width: 900px;
+    list-style: none;
+    float: left;
+    margin: auto;
+}
+.daohang-first .li-f{
+    width: 10%;
+    height: 60px;
+    line-height: 57px;
+    float: left;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.daohang-first li:hover{
+    color: #77d1ad;
+    cursor: pointer;
+}
+.daohang .nzjj{
+    list-style: none;
+    display: none;
+    position: absolute;
+    z-index: 5;
+    float:inherit; 
+
+}
+.nzjj li{
+    width: 160px;
+    height: 40px;
+    background: #77d1ad;
+    line-height: 40px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+.daohang-first li:hover .nzjj{
+    display: block;
+    cursor: pointer
+}
+.nzjj li:hover{
+    background: #fff;
+    color: #77d1ad;
+    transition: 1s ease;
+}
+.tu{
+    width: 100%;
+    margin: auto;
+}
+.tu img{
+    width: 100%;
+}
+.fenlei{
+    width: 100%;
+    margin: auto;
+    height: 70px;
+    border-bottom: 1px solid #dfdfdf;
+
+}
+.fenlei ul{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+.fenlei ul li{
+    list-style: none;
+    float: left;
+    width: 33.3%;
+    padding-top:20px;
+    padding-bottom: 20px;
+    font-size: 17px; 
+}
+.fenlei ul li:hover{
+    color: #77d1ad;
+    cursor: pointer;
+}
+.jianjie{
+    width: 58%;
+    margin: auto;
+    font-size: 18px;
+
+}
+.jianjie p{
+    line-height: 40px;
+    
+}
+.p{
+    padding-top: 50px;
+}
+
+
+
+
+footer{
+    width: 100%;
+    margin: auto;
+    background: rgb(38, 46, 40);
+    margin-top: 100px;
+}
+.mylogo{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.mylogo p{
+    font-size: 10px;
+    line-height: 30px;
+    color: #dfdfdf;
+    margin: auto;
+}
+.li-1{
+    color: #77d1ad;
+}

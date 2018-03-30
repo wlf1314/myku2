@@ -1,0 +1,77 @@
+@charset "utf-8";
+.mylogo p{
+    margin: auto;
+}
+.mylogo{
+    padding-top:0px;
+}
+.di-ul{
+    width: 100%;
+    margin: auto;
+}
+.footer-ul{
+    width: 35%;
+    margin: auto;
+    height: 30px;
+    padding-top: 20px;
+    font-size: 14px;
+}
+.footer-ul li{
+    list-style: none;
+    float: left;
+    width: 14%;
+    color: #dfdfdf;
+}
+.footer-ul li:hover{
+    color: #fff;
+}
+.tou{
+    width: 100%;
+    background: rgb(38, 46, 40);
+    color: #d4d4d4;
+    height: 30px;
+}
+.tou p{
+    width: 100%;
+    margin: auto;
+    line-height: 30px;
+    font-size: 14px;
+}
+.tou1{
+    margin-left: 20%;
+}
+.tou2{
+    margin-left: 1%;
+}
+.tou3{
+    margin-left: 30%;
+}
+.nzjj li{
+    background: #11d1ad;
+}
+
+.a1:visited{
+    color: #77d1ad;
+}
+.li2{
+    color: #77d1ad;
+}
+.li3{
+    color: #77d1ad;
+}
+.li4{
+    color: #77d1ad;
+}
+.li5{
+    color: #77d1ad;
+}
+.li6{
+    color: #77d1ad;
+}
+.li7{
+    color: #77d1ad;
+}
+.li-f{
+    font-weight:bold;
+    color: #333;
+}
